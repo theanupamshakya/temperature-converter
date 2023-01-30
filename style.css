@@ -1,15 +1,16 @@
 body{
   margin-top: 60px;
   text-align:center;
-  background-image: image(bg.jpg);
+  background-image: url(/bg.jpg);
 }
 
 
 h1 {
-  padding-bottom: 2rem;
+  padding-bottom: 2.5rem;
   font-family: 'Times New Roman', Times, serif;
   text-align: center;
-  text-decoration: underline;
+  
+  color: white;
 }
 
 input[type=number] {
@@ -37,7 +38,7 @@ input[type=number] {
 }
 
 ::-webkit-input-placeholder {
-  color: #FFFFFF !important;
+  color: white !important;
 }
 ::-moz-placeholder {
   color: #FFFFFF !important;
@@ -48,8 +49,6 @@ input[type=number] {
 :-moz-placeholder {
   color: #FFFFFF !important;
 }
-
-
 
 .icons{
   max-width: 25px;
